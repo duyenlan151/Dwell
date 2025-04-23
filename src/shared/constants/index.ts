@@ -6,4 +6,7 @@ export const SCREENS = {
   NOTIFICATION: "Notification",
   PROFILE: "Profile",
   DETAIL: "Detail",
+  MAPS: "Maps",
 };
+
+export type ScreenName = (typeof SCREENS)[keyof typeof SCREENS];

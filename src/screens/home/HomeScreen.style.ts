@@ -19,6 +19,7 @@ export default (theme: ExtendedTheme) => {
     container: {
       flex: 1,
       alignItems: "center",
+      justifyContent: "center",
       backgroundColor: colors.background,
     },
     titleTextStyle: {
