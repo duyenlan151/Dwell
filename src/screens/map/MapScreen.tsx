@@ -1,21 +1,21 @@
 import React, { useMemo } from "react";
+import { View } from "react-native";
 import { useTheme } from "@react-navigation/native";
-import { SafeAreaView } from "react-native-safe-area-context";
 import Text from "@shared-components/text-wrapper/TextWrapper";
-import createStyles from "./HomeScreen.style";
+import createStyles from "./MapScreen.style";
 
-const HomeScreen: React.FC = () => {
+const MapScreen: React.FC = () => {
   const theme = useTheme();
   const { colors } = theme;
   const styles = useMemo(() => createStyles(theme), [theme]);
 
   return (
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container}>
       <Text h1 color={colors.text}>
-        Profile
+        Map
       </Text>
-    </SafeAreaView>
+    </View>
   );
 };
 
-export default HomeScreen;
+export default MapScreen;

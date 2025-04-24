@@ -60,6 +60,7 @@
     "@types/events": "^3.0.3",
     "@types/react": "^18.2.6",
     "@types/react-native": "0.72.8",
+    "@types/react-native-vector-icons": "^6.4.18",
     "@types/react-test-renderer": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^7.16.0",
     "@typescript-eslint/parser": "^7.16.0",
